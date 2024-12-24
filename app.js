@@ -1,5 +1,5 @@
 function navigateToAbout() {
-    window.location.href = 'about.html';
+    window.location.href = 'About.html';
 }
 
 function navigateToIndex() {
