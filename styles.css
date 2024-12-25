@@ -25,7 +25,12 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
+@media (max-width: 768px) {
+    .video-background {
+        width: 100vw;
+        height: auto;
+    }
+}
 .navbar {
     overflow: hidden;
     background-color: rgba(51, 51, 51, 0.8);
